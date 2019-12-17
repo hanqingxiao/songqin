@@ -11,8 +11,10 @@ git clone git@github.com:hanqingxiao/songqin.git   -将GitHub克隆到本地电�
 
 git add .
 
+git config --global user.email "2036244560@qq.com"
+
 git commit -m "waichanglianxi"
 
-git commit -m ""
+git remote add origin https://github.com/hanqingxiao/songqin/
 
 git push
