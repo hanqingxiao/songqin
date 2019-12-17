@@ -10,11 +10,5 @@ id_rsa.pub 文件为密钥 复制
 git clone git@github.com:hanqingxiao/songqin.git   -将GitHub克隆到本地电脑
 
 git add .
-
-git config --global user.email "2036244560@qq.com"
-
 git commit -m "waichanglianxi"
-
-git remote add origin https://github.com/hanqingxiao/songqin/
-
 git push
