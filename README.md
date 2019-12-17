@@ -5,9 +5,13 @@ id_rsa.pub 文件为密钥 复制
 
 登录网页GitHub ，工具->setting->key ->add
 
-git clone git@github.com:hanqingxiao/songqin.git
+在本地创建git库   git init
+
+git clone git@github.com:hanqingxiao/songqin.git   -将GitHub克隆到本地电脑
 
 git add .
+
+git commit -m "waichanglianxi"
 
 git commit -m ""
 
