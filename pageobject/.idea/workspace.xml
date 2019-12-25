@@ -19,7 +19,7 @@
     <SUITE FILE_PATH="coverage/pageobject$loginpage.coverage" NAME="loginpage Coverage Results" MODIFIED="1577087018016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pageobject$Unittests_in_ts_py.coverage" NAME="Unittests in ts.py Coverage Results" MODIFIED="1577080208079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pageobject$Unittests_for_ts_webTest_test.coverage" NAME="Unittests for ts.webTest.test Coverage Results" MODIFIED="1577080430415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pageobject$loginpage__1_.coverage" NAME="loginpage (1) Coverage Results" MODIFIED="1577089770668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../automation/PO" />
+    <SUITE FILE_PATH="coverage/pageobject$loginpage__1_.coverage" NAME="loginpage (1) Coverage Results" MODIFIED="1577258097413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../automation/PO" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="pageobject" />
@@ -27,12 +27,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../automation/suappium/duoduo.py">
+        <entry file="file://$PROJECT_DIR$/../automation/PO/loginpage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+            <state relative-caret-position="328">
+              <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#64#660#0" />
               </folding>
             </state>
           </provider>
@@ -57,8 +58,8 @@
         <option value="$PROJECT_DIR$/ts.py" />
         <option value="$PROJECT_DIR$/commonlib.py" />
         <option value="$PROJECT_DIR$/../automation/PO/mianmethod.py" />
-        <option value="$PROJECT_DIR$/../automation/PO/loginpage.py" />
         <option value="$PROJECT_DIR$/../automation/suappium/duoduo.py" />
+        <option value="$PROJECT_DIR$/../automation/PO/loginpage.py" />
       </list>
     </option>
   </component>
@@ -91,6 +92,11 @@
             <path>
               <item name="pageobject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="D:\python\songqin\automation" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="pageobject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\python\songqin\automation" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="PO" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="pageobject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -132,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.duoduo">
+  <component name="RunManager" selected="Python.loginpage (1)">
     <configuration name="commonlib" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pageobject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -245,8 +251,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.duoduo" />
         <item itemvalue="Python.loginpage (1)" />
+        <item itemvalue="Python.duoduo" />
         <item itemvalue="Python.commonlib" />
         <item itemvalue="Python.coursepage" />
         <item itemvalue="Python.loginpage" />
@@ -265,7 +271,7 @@
       <updated>1577077201034</updated>
       <workItem from="1577077203191" duration="1859000" />
       <workItem from="1577080923113" duration="9326000" />
-      <workItem from="1577172836754" duration="3379000" />
+      <workItem from="1577172836754" duration="7313000" />
     </task>
     <servers />
   </component>
@@ -296,13 +302,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14564000" />
+    <option name="totallyTimeSpent" value="18498000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.02010724" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.15884718" />
       <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.23257373" />
       <window_info id="Favorites" order="2" sideWeight="0.50141644" side_tool="true" weight="0.23257373" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -317,12 +322,12 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="bottom" id="Run" order="12" weight="0.14589235" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info active="true" anchor="right" id="Run" order="5" visible="true" weight="0.35656837" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,11 +336,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../automation/PO/loginpage.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/../automation/suappium/duoduo.py</url>
           <line>11</line>
@@ -409,16 +409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../automation/PO/loginpage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coursepage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -445,6 +435,17 @@
           <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../automation/PO/loginpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#64#660#0" />
           </folding>
         </state>
       </provider>
