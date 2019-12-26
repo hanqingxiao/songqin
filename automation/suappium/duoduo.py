@@ -1,10 +1,18 @@
 from appium import webdriver
 import time,traceback
+'''
+
+编写python程序，完成一个 计算 3+9 ，
+结果 再乘以5 的自动化功能. 最后判断计算结果是否为60，如果是，测试通过；否则测试不通过
+'''
+
 desired_caps = {}
 desired_caps['platformName'] = 'Android'
-desired_caps['platformVersion'] = '7.0'
+desired_caps['platformVersion'] = '8.0'
 desired_caps['deviceName'] = 'test'
-#desired_caps['app'] = r'C:\Users\Administrator\Downloads\com.ibox.calculators_3.1.2_1312.apk'
+#加上这个参数会新加一种unicode输入法
+desired_caps['unicodeKeyboard']  = True
+#desired_caps['app'] = r'C:\Users\Eric\Downloads\com.ibox.calculators_3.1.3_1313.apk'
 desired_caps['appPackage'] = 'com.ibox.calculators'
 desired_caps['appActivity'] ='com.ibox.calculators.SplashActivity'
 desired_caps['unicodeKeyboard']  = True
@@ -13,41 +21,33 @@ desired_caps['noReset'] = True
 desired_caps['newCommandTimeout'] = 6000
 #启动Remote RPC
 driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
-'''
-编写python程序，完成一个 计算 3+9 ，
-结果 再乘以5 的自动化功能. 最后判断计算结果是否为60，如果是，测试通过；否则测试不通过
-'''
-
-time.sleep(6)
-try:
-    driver.implicitly_wait(10)
-    # 根据id找到元素，并点击，id和 html 元素的id不同
-    #3
-    driver.find_element_by_id("com.ibox.calculators:id/digit3").click()
-    time.sleep(1)
+def ele_click(ele):
+    driver.find_element_by_id(ele).click()
+if __name__ == '__main__':
+    time.sleep(8)
+    # 3
+    ele_click("com.ibox.calculators:id/digit3")
     #+
-    driver.find_element_by_id("com.ibox.calculators:id/plus").click()
-    time.sleep(1)
-    #9
-    driver.find_element_by_id("com.ibox.calculators:id/digit9").click()
-    #=
-    driver.find_element_by_id("com.ibox.calculators:id/add_item").click()
-    #*
-    driver.find_element_by_id("com.ibox.calculators:id/mul").click()
-    #5
-    driver.find_element_by_id("com.ibox.calculators:id/digit5").click()
-    #=
-    driver.find_element_by_id("com.ibox.calculators:id/add_item").click()
-    retLayout = driver.find_element_by_id('com.ibox.calculators:id/cv')
-    retTvs = retLayout.find_elements_by_class_name('android.widget.TextView')
-    retStr = retTvs[1].text
-    print(retStr)
+    ele_click("com.ibox.calculators:id/plus")
+    # 9
+    ele_click("com.ibox.calculators:id/digit9")
+    # =
+    ele_click("com.ibox.calculators:id/add_item")
+    # *
+    ele_click("com.ibox.calculators:id/mul")
+    # 5
+    ele_click("com.ibox.calculators:id/digit5")
+    # =
+    ele_click("com.ibox.calculators:id/add_item")
+    driver.implicitly_wait(10)
+    # retLayout = driver.find_element_by_id('com.ibox.calculators:id/cv')
+    #retTvs = retLayout.find_elements_by_class_name('android.widget.TextView')
+    reTv=driver.find_element_by_xpath('//*[@resource-id="com.ibox.calculators:id/cv"]/android.widget.TextView[2]').text
 
-    if retStr == '60':
+    if reTv == '60':
         print('测试通过')
     else:
-        print('测试不通过')
-except:
-    print(traceback.format_exc())
+        print(f'测试不通过,值为：{reTv}')
+
 print('**** Press to quit..')
 driver.quit()

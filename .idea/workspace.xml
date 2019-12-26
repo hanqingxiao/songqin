@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5725e91f-a83c-4b36-9e15-a5203787339e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/automation/suappium/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation/PO/loginpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/automation/PO/loginpage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation/sele/upload.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation/suappium/duoduo.py" beforeDir="false" afterPath="$PROJECT_DIR$/automation/suappium/duoduo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +15,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/songqin$Dictionaries.coverage" NAME="Dictionaries Coverage Results" MODIFIED="1574949721184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classroom" />
     <SUITE FILE_PATH="coverage/songqin$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1577025125028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/songqin/codeAppium" />
+    <SUITE FILE_PATH="coverage/songqin$duoduo.coverage" NAME="duoduo Coverage Results" MODIFIED="1577279502342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/automation/suappium" />
     <SUITE FILE_PATH="coverage/songqin$word_game.coverage" NAME="word_game Coverage Results" MODIFIED="1575388261746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classroom" />
     <SUITE FILE_PATH="coverage/songqin$test___.coverage" NAME="test - 副本 Coverage Results" MODIFIED="1575897644718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pro1116/01" />
     <SUITE FILE_PATH="coverage/songqin$loginpage.coverage" NAME="loginpage Coverage Results" MODIFIED="1577199689714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/automation/PO" />
@@ -70,12 +71,14 @@
         <option value="$PROJECT_DIR$/pro1116/TEST.py" />
         <option value="$PROJECT_DIR$/songqin/codeAppium/test.py" />
         <option value="$PROJECT_DIR$/automation/PO/loginpage.py" />
+        <option value="$PROJECT_DIR$/automation/suappium/test.py" />
+        <option value="$PROJECT_DIR$/automation/suappium/duoduo.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="790" />
-    <option name="y" value="201" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="314" />
+    <option name="y" value="371" />
     <option name="width" value="963" />
     <option name="height" value="590" />
   </component>
@@ -97,6 +100,12 @@
               <item name="songqin" type="b2602c69:ProjectViewProjectNode" />
               <item name="songqin" type="462c0819:PsiDirectoryNode" />
               <item name="automation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="songqin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="songqin" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="suappium" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -129,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.loginpage">
+  <component name="RunManager" selected="Python.duoduo">
     <configuration name="TEST" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="songqin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,7 +161,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="huawei" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="duoduo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="songqin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,12 +169,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/songqin/automation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automation/suappium" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/songqin/automation/huawei.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automation/suappium/duoduo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,11 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.duoduo" />
         <item itemvalue="Python.loginpage" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.TEST" />
         <item itemvalue="Python.uploadfile" />
-        <item itemvalue="Python.huawei" />
       </list>
     </recent_temporary>
   </component>
@@ -266,22 +275,22 @@
       <workItem from="1575897567605" duration="1396000" />
       <workItem from="1576672956753" duration="11367000" />
       <workItem from="1577102382081" duration="498000" />
-      <workItem from="1577198323691" duration="2192000" />
+      <workItem from="1577198323691" duration="6242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57234000" />
+    <option name="totallyTimeSpent" value="61284000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="790" y="201" width="963" height="590" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21816169" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21816169" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29605263" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3451613" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4032258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -545,6 +554,23 @@
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/suappium/duoduo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation/suappium/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="24" selection-start-line="24" selection-end-line="25" selection-end-column="39" />
         </state>
       </provider>
     </entry>
